@@ -1,0 +1,15 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+ribbon:
+  #单位MS
+  ReadTimeout: 5000    #建立连接后从服务器读取数据的时间期限
+  connectTimeout: 5000   #建立连 接的时间期限
+logging:
+  level:
+    #监控对应的的  接口     并设置监控级别
+    com.lzw.springcloud.service.PaymentFeignService: debug

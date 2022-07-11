@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudAlibaba-sentinel-service-8401" />
+        <module name="cloudAlibaba-config-nacos-client-3377" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
+        <module name="cloud-consumer-order-80" />
+        <module name="cloud-consumer-feign-hystrix-order-80" />
+        <module name="cloud-provider-payment-8002" />
+        <module name="cloud-config-center-3344" />
+        <module name="cloudAlibaba-sentinel-service-8401" />
+        <module name="cloudAlibaba-seata-order-service-2003" />
+        <module name="cloud-provider-payment-8001" />
+        <module name="cloudAlibaba-seata-order-service-2002" />
+        <module name="cloud-provider-payment-8004" />
+        <module name="cloudAlibaba-seata-order-service-2001" />
+        <module name="cloud-consulConsumer-order-80" />
+        <module name="cloudAlibaba-consumer-nacos-order84" />
+        <module name="cloud-gateway-gateway-9527" />
+        <module name="1.seata-order-service-2001" />
+        <module name="cloud-provider-payment-8006" />
+        <module name="cloud-consumer-hystrix-dashboard-9001" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-eureka-server-7001" />
+        <module name="cloud-provider-hystrix-payment-8001" />
+        <module name="cloud-eureka-server-7002" />
+        <module name="cloud-api-commons" />
+        <module name="cloudAlibaba-provider-payment-9902" />
+        <module name="cloudAlibaba-consumer-nacos-order-83" />
+        <module name="cloud-consumer-feign-order-80" />
+        <module name="cloud-stream-rabbitmq-provider-8801" />
+        <module name="cloudAlibaba-provider-payment-9004" />
+        <module name="cloud-stream-rabbitmq-consumer-8803" />
+        <module name="cloud-consumerzk-order-80" />
+        <module name="cloudAlibaba-provider-payment-9003" />
+        <module name="cloudAlibaba-provider-payment-9001" />
+        <module name="cloud-config-client-3355" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1.seata-order-service-2001" target="1.8" />
+      <module name="springcloudAlibaba-sentinel-service-8401" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

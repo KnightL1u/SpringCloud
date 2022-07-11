@@ -1,0 +1,32 @@
+server:
+  port: 3366
+
+spring:
+  application:
+    name: config-client-02
+  cloud:
+    config:
+      label: main
+      name: config
+      profile: dev
+      uri: http://localhost:3344
+      #相当于最终找得到的是  uri+"/"+lable+"/"+name+"-"+profile+".yml"  文件
+      #这里就是   http://localhost:3344/main/config-dev.yml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+
+  rabbitmq:
+    host: 192.168.163.56
+    password: 123456
+    username: root
+    port: 5672
+
+
+#暴露要监控的端口
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"

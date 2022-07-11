@@ -1,0 +1,36 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/KnightL1u/springcloud-config.git
+          search-paths:
+            - springcloud-config
+          force-pull: true
+      label: main
+      username: KnightL1u
+      password: Liu19990730..
+    bus:
+      refresh:
+        enabled: true
+  rabbitmq:
+    port: 5672
+    username: root
+    password: 123456
+    host: 192.168.163.56
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+#暴露要监控的端口
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "bus-refresh"
